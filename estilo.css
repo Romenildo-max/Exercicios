@@ -4,5 +4,6 @@
  }
 
  nav {
-    border: solid 1px red;
+    position: relative;
+    margin: 270px auto 0;
  }
