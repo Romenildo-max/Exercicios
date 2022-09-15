@@ -1,2 +1,2 @@
-# Exercicios
- alguns exercicios
+# Desafios 
+ Alguns desafios para fixação de conteudo aprendido
