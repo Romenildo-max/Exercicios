@@ -1,6 +1,7 @@
 
 var altura = 0
 var largura = 0
+var vidas = 1
 
 function ajustaTamanhaPalcoJogo() {
     altura = window.innerHeight
@@ -18,7 +19,7 @@ function posicaoRandomica() {
     if(document.getElementById('mosquito')) {
         document.getElementById('mosquito').remove()
 
-        document.getElementById('V1').src = "img/coracao_vazio.png"
+        document.getElementById('v' + vidas ).src = "img/coracao_vazio.png"
     }
     id="V1"
     var posicaoX = Math.floor (Math.random() * largura) - 90
