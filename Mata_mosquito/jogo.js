@@ -19,8 +19,12 @@ function posicaoRandomica() {
     if(document.getElementById('mosquito')) {
         document.getElementById('mosquito').remove()
 
+        if(vidas > 3) {
+            alert('Game over')
+        }else {
         document.getElementById('V' + vidas ).src = "img/coracao_vazio.png"
-
+        }
+        
         vidas++
     }
 
