@@ -29,13 +29,16 @@ function posicaoRandomica() {
  
 
     //criar o elemento html utilizando DOM
-     var mosquito = document.createElement('img')
+    var mosquito = document.createElement('img')
     mosquito.src = 'img/mosquito.png'
     mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
     mosquito.style.left = posicaoX + 'px'
     mosquito.style.top = posicaoY + 'px'
     mosquito.style.position = 'absolute'
     mosquito.id = 'mosquito'
+    mosquito.onclick = function() {
+        this.remove()
+    }
 
     document.body.appendChild(mosquito)
 
