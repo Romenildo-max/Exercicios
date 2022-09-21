@@ -2,6 +2,7 @@
 var altura = 0
 var largura = 0
 var vidas = 1
+var tempo = 10
 
 function ajustaTamanhaPalcoJogo() {
     altura = window.innerHeight
@@ -11,6 +12,12 @@ function ajustaTamanhaPalcoJogo() {
 }
 
 ajustaTamanhaPalcoJogo()
+
+var cronometro = setInterval(function() {
+
+    document.getElementById('cronometro').innerHTML
+    tempo -= 1
+}, 1000)
 
 function posicaoRandomica() {
 
