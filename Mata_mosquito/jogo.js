@@ -15,8 +15,16 @@ ajustaTamanhaPalcoJogo()
 
 var cronometro = setInterval(function() {
 
-    document.getElementById('cronometro').innerHTML
     tempo -= 1
+
+    if(tempo < 0) {
+
+        clearInterval(cronometro)
+        clearInterval(criaMosquito)
+    }else {
+    document.getElementById('cronometro').innerHTML = tempo
+    }
+
 }, 1000)
 
 function posicaoRandomica() {
