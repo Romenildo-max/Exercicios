@@ -96,4 +96,4 @@ function ladoAleatorio() {
             return 'ladoB'
            
     }
-}//hoje sera so descanso
+}
