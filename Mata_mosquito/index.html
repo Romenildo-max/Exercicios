@@ -21,6 +21,8 @@
         }
 
         alert('nivel')
+
+        window.location.href = "jogo_mata_mosquito?" + nivel
     }
 </script>
 
@@ -40,7 +42,7 @@
             <div class="col">
                 <div class="d-flex justify-content-center">
                     <div class="mb-2">
-                        <select class="form-control" name="mudarNivel" id="nivel">
+                        <select class="form-control" id="nivel">
                             <option value="">-- Selecionar o nível --</option>
                             <option value="normal">Normal</option>
                             <option value="dificil">Dificil</option>
