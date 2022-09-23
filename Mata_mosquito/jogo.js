@@ -7,7 +7,7 @@ var tempo = 15
 var criaMosquitoTempo = 1500
 
 var nivel = window.location.href.search
-nivel = nivel.replace('?', '')
+nivel = nivel
 
  if(nivel === 'normal') {
     criaMosquitoTempo = 1500
