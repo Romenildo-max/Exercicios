@@ -7,13 +7,12 @@ var tempo = 15
 var criaMosquitoTempo = 1500
 
 var nivel = window.location.href.search
-nivel = nivel
 
- if(nivel === 'normal') {
+ if(nivel === 'facil') {
     criaMosquitoTempo = 1500
- }else if(nivel === 'dificil') {
+ }else if(nivel === 'normal') {
     criaMosquitoTempo = 1000
- }else if(nivel === 'tueobixaomemo') {
+ }else if(nivel === 'dificil') {
     criaMosquitoTempo = 750
  }
 
