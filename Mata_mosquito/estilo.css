@@ -1,3 +1,6 @@
+html {
+    cursor: url(img/mata_mosquito.png) 30px 30px, auto;
+}
 
 body {
     background-image: url(img/bg.jpg);
@@ -48,3 +51,4 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
