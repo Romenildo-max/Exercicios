@@ -8,3 +8,8 @@ body {
     margin: 15px;
     padding: auto;
 }
+
+#container {
+    margin: 0 auto;
+    min-width: 740px;
+}
