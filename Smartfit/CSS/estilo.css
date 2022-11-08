@@ -5,12 +5,10 @@
 
 body {
     font-family: arial, helvetica, sans-serif;
-    margin: 15px;
     padding: auto;
 }
 
 #container {
     background: #dcdcdc;
-    height: 400px;
     display: flex;
 }
