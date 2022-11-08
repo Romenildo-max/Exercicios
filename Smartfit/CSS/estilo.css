@@ -10,6 +10,7 @@ body {
 }
 
 #container {
-    margin: 0 auto;
-    min-width: 740px;
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
 }
