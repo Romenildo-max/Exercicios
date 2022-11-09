@@ -9,6 +9,11 @@ body {
     padding: auto;
 }
 
+#home {
+    border: solid red 1px;
+    height: 870px;
+}
+
 #container {
     background: #dcdcdc;
     display: flex;
